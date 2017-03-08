@@ -8,6 +8,7 @@ setup(
         'gunicorn',
         'nsenter',
         'flask',
-        'pydbus'
+        'pydbus',
+        'supervisor'
     ],
 )

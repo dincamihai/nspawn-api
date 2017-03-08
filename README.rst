@@ -14,5 +14,5 @@ This is how to run it:
     echo "*" > sandbox/.gitignore
     . sandbox/bin/activate
     pip install -r requirements.txt
-    sudo ./sandbox/bin/gunicorn -c python:socketconf nspawn:app
+    sudo ./sandbox/bin/supervisord -c ./supervisord.conf
 
